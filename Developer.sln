@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.CSharp.Fundamentals", "Developer.CSharp.Fundamentals\Developer.CSharp.Fundamentals.csproj", "{651532C9-475A-4DDE-8C93-A17A78280858}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Net.DesignPatterns", "Developer.Net.DesignPatterns\Developer.Net.DesignPatterns.csproj", "{C9A9EB22-9689-422D-B87C-E3FED3F2CA5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.MsSql.Fundamentals", "Developer.MsSql.Fundamentals\Developer.MsSql.Fundamentals.csproj", "{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{651532C9-475A-4DDE-8C93-A17A78280858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651532C9-475A-4DDE-8C93-A17A78280858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651532C9-475A-4DDE-8C93-A17A78280858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A9EB22-9689-422D-B87C-E3FED3F2CA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A9EB22-9689-422D-B87C-E3FED3F2CA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A9EB22-9689-422D-B87C-E3FED3F2CA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A9EB22-9689-422D-B87C-E3FED3F2CA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
