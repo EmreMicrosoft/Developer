@@ -2,8 +2,8 @@
 {
     public class Arrays
     {
-        private int[] _digits = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        private char[] _chars = new char[11]; // 11 is Lenght of the Array.
+        private readonly int[] _digits = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        private readonly char[] _chars = new char[11]; // 11 is Lenght of the Array.
 
 
         // *** MULTIDIMENSIONAL ARRAYS *** //

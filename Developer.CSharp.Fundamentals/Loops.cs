@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Developer.CSharp.Fundamentals
 {
@@ -60,11 +62,27 @@ namespace Developer.CSharp.Fundamentals
             do
             {
                 Console.WriteLine("value of a: {0}", a);
-                a = a + 1;
+
+                // a = a + 1;
+                a += 1;
             }
             while (a < 20);
 
-            //// https://www.tutorialspoint.com/csharp/csharp_do_while_loop.htm
+            // https://www.tutorialspoint.com/csharp/csharp_do_while_loop.htm
+        }
+
+
+        /***** BONUS *****/
+        public void IfLoop()
+        {
+            var t = 0;
+            
+            ReCharge:
+            if (t < 10)
+            {
+                t++;
+                goto ReCharge;
+            }
         }
     }
 }
