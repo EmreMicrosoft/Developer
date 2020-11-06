@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Net.ClassLibrary"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Mvc.MethodLibrary", "Developer.Mvc.MethodLibrary\Developer.Mvc.MethodLibrary.csproj", "{35562C00-02FF-44AF-969D-DDF7864ABC51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Forms.MethodLibrary", "Developer.Forms.MethodLibrary\Developer.Forms.MethodLibrary.csproj", "{DA5CA5C2-524C-4050-AFE2-4138D5B1DBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{35562C00-02FF-44AF-969D-DDF7864ABC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35562C00-02FF-44AF-969D-DDF7864ABC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35562C00-02FF-44AF-969D-DDF7864ABC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5CA5C2-524C-4050-AFE2-4138D5B1DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5CA5C2-524C-4050-AFE2-4138D5B1DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5CA5C2-524C-4050-AFE2-4138D5B1DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5CA5C2-524C-4050-AFE2-4138D5B1DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
