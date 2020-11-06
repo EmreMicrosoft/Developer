@@ -4,6 +4,7 @@ namespace Developer.CSharp.Fundamentals
 {
     public class DataTypes
     {
+        #pragma warning disable 219
         public static void Run()
         {
             //VERİ TİPLERİ
@@ -14,7 +15,9 @@ namespace Developer.CSharp.Fundamentals
             sbyte ikinciSayi = -128;         // 1 byte yer kaplar, -128 ile +127 arasında tam sayı değer alır.
             short ucuncuSayi = -32768;       // 2 byte yer kaplar, -32768 ile + 32767 arasında tam sayı değer alır.
             ushort dorduncuSayi = 65535;     // 2 bayt yer kaplar, 0 ile 65535 arası tam sayı değer alır.
+
             int integerSayi = -1400000000;   // 4 byte yer kaplar, -1.4 milyar ile + 1.4 milyar arasında tam sayı değer alır.
+
             uint uIntegerSayi = 2800000000;  // 4 byte yer kaplar, 0 ile 2.8 milyar arasında tam sayı değer alır.
             long longSayi = 0;               // 8 byte yer kaplar, -çok +çok arasında değer alır.
             ulong uLongSayi = 0;             // 8 byte yer kaplar, 0 ile +çoook arasında tam sayı değer alır.
@@ -133,5 +136,8 @@ namespace Developer.CSharp.Fundamentals
 
             Look for 'Unsafe Codes' for more information.
         */
+
+        #pragma warning restore 219
     }
 }
+
