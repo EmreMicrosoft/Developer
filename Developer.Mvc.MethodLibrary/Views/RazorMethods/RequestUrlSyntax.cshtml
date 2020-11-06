@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "Request Url Syntax";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string pageName = ""/*HttpContext.Current.Request.RawUrl*/;
+}
+
+<h1>Request Url Syntax</h1>
+
+
+@if (pageName == "/" || pageName == "/Home/" || pageName == "/Home" || pageName == "/Home/Index")
+{
+  //  @Html.Partial("_Slider")
+}
+else
+{
+  //  @Html.Partial("_PageSlider")
+}
+
+
+
+@{
+    // main url, returns string
+    // sample: https://localhost:44395/Product/Index
+    var path1 = Context.Request.GetDisplayUrl();
+
+    // second part of url, returns Microsoft.AspNetCore.Http.PathString
+    // sample: {/Product/Index}
+    var path2 = Context.Request.Path;
+
+    // main url except https://, returns Microsoft.AspNetCore.Http.HostString
+    // sample: {localhost:44395}
+    var hostString = Context.Request.Host;
+
+    // *************
+    // total request url, returns string
+    // sample: "https://localhost:44395/Product/Index"
+    var domainAddress = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}";
+
+    // total request url, returns System.Uri
+    // sample: {https://localhost:44395/Product/Index}
+    // complexType as location
+    var complexType = new Uri($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}");
+
+    // *************
+    // total request url; returns string
+    // sample: "https://localhost:44395/Product/Index"
+    // var url = location.AbsoluteUri;
+
+    // https, returns string
+    var schema = Context.Request.Scheme;
+
+    // ?; returns Microsoft.AspNetCore.Http.QueryString
+    // sample: ?
+    var queryString = Context.Request.QueryString;
+
+}
