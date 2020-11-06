@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.MsSql.Fundamental
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Developer.Python.Fundamentals", "Developer.Python.Fundamentals\Developer.Python.Fundamentals.pyproj", "{66B0E9E9-1220-4D21-A548-C59DF482A783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Net.ClassLibrary", "Developer.Net.ClassLibrary\Developer.Net.ClassLibrary.csproj", "{CDD6B1AB-F781-4926-A1B2-7A58C2468302}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6ACA5B53-93A7-4FC8-8975-3C6A73F2E049}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66B0E9E9-1220-4D21-A548-C59DF482A783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66B0E9E9-1220-4D21-A548-C59DF482A783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6B1AB-F781-4926-A1B2-7A58C2468302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6B1AB-F781-4926-A1B2-7A58C2468302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6B1AB-F781-4926-A1B2-7A58C2468302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6B1AB-F781-4926-A1B2-7A58C2468302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
