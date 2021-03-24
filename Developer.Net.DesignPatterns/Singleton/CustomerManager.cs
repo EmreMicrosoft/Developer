@@ -1,4 +1,4 @@
-﻿namespace Developer.Net.CoreLibrary.DesignPatterns.Singleton
+﻿namespace Developer.Net.DesignPatterns.Singleton
 {
     public class CustomerManager
     {
